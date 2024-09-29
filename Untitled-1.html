@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation avec Cartes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .card h3 {
+            text-align: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .card p {
+            font-size: 14px;
+            text-align: justify;
+        }
+        .icon {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .icon img {
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Carte 1 -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://via.placeholder.com/40" alt="icon">
+        </div>
+        <h3>Fiches territoriales</h3>
+        <p>Développer des scripts et des outils automatisés pour le traitement des données et la génération des fiches territoriales...</p>
+    </div>
+
+    <!-- Carte 2 -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://via.placeholder.com/40" alt="icon">
+        </div>
+        <h3>ATLAS CARTO</h3>
+        <p>Collaborer avec les différents SRISE pour élaborer des normes communes et des standards de qualité pour la création et la présentation des cartes...</p>
+    </div>
+
+    <!-- Carte 3 -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://via.placeholder.com/40" alt="icon">
+        </div>
+        <h3>Eau et changement climatiques</h3>
+        <p>Optimiser et automatiser les scripts R existants pour le calcul de l’évapotranspiration, des précipitations, et des besoins en irrigation...</p>
+    </div>
+
+    <!-- Carte 4 -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://via.placeholder.com/40" alt="icon">
+        </div>
+        <h3>Enquêtes PK</h3>
+        <p>Mettre en place des tableaux de bord interactifs utilisant des outils comme Shiny ou Tableau pour permettre une exploration facile des données...</p>
+    </div>
+</div>
+
+</body>
+</html>

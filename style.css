@@ -1,0 +1,130 @@
+/* Style général */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2D8A7;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #BFA07A;
+    color: #734116;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-table;
+    margin: 0 10px;
+    background-color: #8C7456; /* Couleur de fond des boutons */
+    padding: 10px 25px; /* Taille des boutons */
+    border-radius: 5px; /* Arrondir les coins */
+    text-decoration: none; /* Retire le soulignement des liens */
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Effet d'ombre pour donner une apparence de bouton */
+    transition: background-color 0.3s; /* Animation pour un effet au survol */
+
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #BFA07A;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #734116;
+    border-bottom: 2px solid #8C7456;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: #000000;
+    text-decoration: none; /* Retire le soulignement des liens */
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info a{
+    color: #000000;
+    text-decoration: none; 
+}
+
+.contact-info img {
+    width: 24px; /* Taille de l'icône */
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Autres projets */
+.card {
+    background-color: #8C7456;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    text-align: center;
+    color: #000000;
+}
+.card a {
+    color: #000000;
+    text-decoration: none; 
+
+}
+
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 0.1px;
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+}
