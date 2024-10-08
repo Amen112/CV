@@ -200,19 +200,19 @@ footer {
     font-size: 14px; 
     margin-top: auto;
     color: #fff; 
-    background-color: #333; 
+    background-color: #3641B3; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour effet de relief */
 }
 .openModalBtn:hover {
-    background-color: #3641B3; /* Changer la couleur au survol */
+    background-color: #333; /* Changer la couleur au survol */
     transform: translateY(-2px); /* Légère élévation au survol */
 }
 
 .openModalBtn:active {
-    background-color: #3641B3; /* Couleur quand le bouton est cliqué */
+    background-color: #333; /* Couleur quand le bouton est cliqué */
     transform: translateY(0); /* Retour à la position initiale */
 }
 
