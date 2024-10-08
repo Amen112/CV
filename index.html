@@ -52,8 +52,45 @@
                 <p>2023</p>
                 <img src="/CV/images/Ernee.png">
                 <p>Inventaire des haies et suivi du bocage avec l’outil SIG.</p>
+                
+                <button id="openModalBtn">Détails</button>
             </div>
-
+            <!-- Fenêtre modale -->
+            <div id="myModal" class="modal">
+                <!-- Contenu de la modale -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Inventaire des haies et suivi du bocage avec l’outil SIG</h2>
+                    <p>En France, le bocage reflète les évolutions de l'agriculture, des politiques publiques et des préoccupations environnementales. Il a connu des phases de développement, de déclin, puis de redécouverte. Ces dernières décennies, de nombreux bocages ont été supprimés pour adapter les terres aux nouvelles pratiques agricoles. Pour y remédier, le gouvernement français et divers acteurs locaux ont lancé plusieurs initiatives visant à encourager la préservation, la valorisation et la restauration des bocages, en mettant en avant leurs avantages écologiques et économiques.
+                        <br> </br>Dans ce cadre, la Communauté de communes de l'Ernée prévoit de réaliser un inventaire et un observatoire du bocage sur son territoire, à intégrer dans son futur Plan Local d'Urbanisme intercommunal (PLUi). La méthodologie retenue repose sur la photo-interprétation grâce aux outils SIG (Système d’Information Géographique). Les étapes incluent :
+                        <br> </br> <br> 1- Définir les objectifs de l'inventaire.</br>
+                        <br> 2- Analyser les données disponibles, provenant principalement de la Chambre d'Agriculture de la Mayenne, de l'IGN, et du référentiel bocager des Pays de la Loire.</br>
+                        <br> 3- Mettre en place le processus de numérisation.</br>
+                        <br> 4- Structurer, créer et alimenter la base de données bocagère.</br>
+                        <br> </br> Une fois l'inventaire achevé, un contrôle de qualité est effectué pour vérifier la conformité des données. L'usage des SIG permet d'obtenir une vue claire et détaillée des éléments du bocage, essentielle à leur préservation et à une gestion durable. Cela facilite également la prise de décisions éclairées en matière d'aménagement et de protection de l'environnement.</p>
+                    <p> <b>Mots clés </b>:</p>
+                    <div class="modal-item">
+                        <span>Bocage</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>Haies</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>Inventaire du bocage</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>SIG</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>QGIS</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>Photo-interprétation</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ysVdThq5-Yp7HZAKpFFiQdD5lKHGVi8v/view?usp=drive_link">Rapport</a>
+                </div>
+            </div>
+            
             <!-- Experience 3 -->
             <div class="card">
                 <h3>Stagiaire - SCET Tunisie</h3>
@@ -173,5 +210,9 @@
     <footer>
         <p> 2024 </p>
     </footer>
+    <!-- Bouton "Retour en haut" -->
+    <button id="backToTop" onclick="backToTop()" style="display:none;">⬆</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
