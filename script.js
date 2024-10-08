@@ -1,24 +1,29 @@
-// Obtenir les éléments
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("openModalBtn");
-var span = document.getElementsByClassName("close")[0];
-
-// Ouvrir la modale au clic du bouton
-btn.onclick = function() {
-    modal.style.display = "block";
+// Gérer l'ouverture de chaque modale individuellement
+document.getElementById("openModalBtn1").onclick = function() {
+    document.getElementById("myModal1").style.display = "block";
 }
 
-// Fermer la modale au clic sur le 'X'
-span.onclick = function() {
-    modal.style.display = "none";
+document.getElementById("openModalBtn2").onclick = function() {
+    document.getElementById("myModal2").style.display = "block";
 }
 
-// Fermer la modale en cliquant en dehors du contenu de la modale
-window.onclick = function(event) {
-    if (event.target == modal) {
+document.getElementById("openModalBtn3").onclick = function() {
+    document.getElementById("myModal3").style.display = "block";
+}
+// Gérer la fermeture de chaque modale individuellement
+document.querySelectorAll(".modal").forEach(modal => {
+    modal.querySelector(".close").onclick = function() {
         modal.style.display = "none";
     }
-}
+
+    // Fermer la modale en cliquant en dehors du contenu
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
+
 
 // Bouton "Retour en haut"
 document.addEventListener("scroll", function() {
