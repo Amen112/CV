@@ -80,7 +80,10 @@ section h2 {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
-
+section ul li a {
+    color: #000000; /* Couleur du texte */
+    font-size: 1rem;
+}
 .project {
     margin-bottom: 20px;
 }
@@ -156,9 +159,9 @@ footer {
 /* Compétences */
 .tech-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    background-color: #3641B3;
+    background-color: #333;
     padding: 20px;
     border-radius: 15px;
 }
@@ -168,7 +171,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #3640b39e;
+    background-color: #421BA4;
     padding: 20px;
     border-radius: 10px;
 }
