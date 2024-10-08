@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('images/carte_route.jpg');
     color: #333;
     line-height: 1.6;
 }
@@ -68,7 +68,7 @@ header nav ul li a {
 section {
     padding: 20px;
     margin: 20px auto;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4c0;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -115,7 +115,7 @@ section ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #421BA4;
+    background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
 }
@@ -127,15 +127,15 @@ section ul li a {
 }
 
 .tech-item span {
-    color: #fff;
+    color: #333;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
 /* Autres projets */
 .card {
-    background-image: url('images/background1.jpg');
-    width: 250px;
+    background-color: #333;
+    width: 280px;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
@@ -149,11 +149,11 @@ section ul li a {
 }
 .card h3 {
     text-align: center;
-    color: #883F3F;
+    color: #B33636;
 }
 .card p {
     text-align: center;
-    color: #000000;
+    color: #fff;
 }
 .card a {
     color: #000000;
@@ -162,7 +162,7 @@ section ul li a {
 .card img {
     width: 80px;
     height: 60px;
-    margin-left: 85px;
+    margin-left: 100px;
 }
 
 /* Contact*/
