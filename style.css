@@ -163,6 +163,16 @@ section ul li a {
     width: 80px;
     height: 60px;
 }
+.card a {
+    display:flex;
+    background-color: #3641B3;
+    border-radius: 5px;
+    width:50px;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* Contact*/
 .contact-info {
@@ -249,6 +259,11 @@ footer {
     color: #fff;
     text-decoration: none; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.modal li {
+    color: #51733F;
+    font-size: large;
+    margin: 5px;
 }
 .modal-item {
     display:inline-block;
