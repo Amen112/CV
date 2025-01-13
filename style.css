@@ -165,9 +165,9 @@ section ul li a {
 }
 .card a {
     display:flex;
+    text-align: center;
     background-color: #3641B3;
     border-radius: 5px;
-    width:50px;
     padding: 5px 20px;
     color: #fff;
     text-decoration: none; 
