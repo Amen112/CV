@@ -24,7 +24,6 @@ document.querySelectorAll(".modal").forEach(modal => {
     }
 });
 
-
 // Bouton "Retour en haut"
 document.addEventListener("scroll", function() {
     const button = document.getElementById("backToTop");
